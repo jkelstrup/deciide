@@ -30,7 +30,7 @@ body {
 
   position: relative;
 
-  background: #222;
+  background: #fff;
 
   @include flex(1);
   @include display(flex);
@@ -50,12 +50,12 @@ button {
       -ms-user-select: none;
           user-select: none;
 
-  color: #fff;
+  color: #222;
   border: none;
-  border: 1px solid white;
+  border: 1px solid #222;
   border-radius: 10px;
   background: none;
-  box-shadow: 0 2px 10px rgba(0,0,0,.25);
+  box-shadow: 0 2px 10px rgba(0,0,0,.05);
 
    -khtml-user-select: none;
   -webkit-touch-callout: none;
@@ -102,15 +102,17 @@ h2 {
 
   &.yes,
   &.no {
+    background: #fff;
+
     @include display(flex);
   }
 
   &.no {
-    background: #b32d12;
+    color: #b32d12;
   }
 
   &.yes {
-    background: #12b37d;
+    color: #12b37d;
   }
 
   .container {
