@@ -29,7 +29,8 @@ var degrees = [
   "I don't know. Let's go with",
   "For your own sake",
   "For God's sake",
-  "To cut to the chase:"
+  "To cut to the chase:",
+  "Hell"
 ];
 
 var decision = document.getElementById('decision');
