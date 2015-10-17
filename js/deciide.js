@@ -38,7 +38,7 @@ var degree = decision.getElementsByTagName('h2')[0];
 var verdict = decision.getElementsByTagName('h1')[0];
 
 function decide() {
-  var yes = Math.floor(Math.random() * 2);
+  var yes = Math.random() >= 0.5;
   degree.innerHTML = degrees[Math.floor(Math.random() * degrees.length)];
 
   if (yes) {
